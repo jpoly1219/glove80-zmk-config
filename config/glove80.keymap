@@ -29,7 +29,7 @@
 
         lower: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
+            label = "LOWER_LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo 1>, <&to 1>;
@@ -37,7 +37,7 @@
 
         upper: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
+            label = "UPPER_LAYER_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo 2>, <&to 2>;
