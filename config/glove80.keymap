@@ -142,7 +142,7 @@
 &trans       &trans  &trans  &trans   &trans   &trans                                                                &trans     &trans            &trans        &trans             &trans        &trans
 &bt BT_CLR   &bt_0   &kp F1  &kp F2   &kp F3   &kp F4                                                                &kp HOME   &kp LC(LG(LEFT))  &kp UP        &kp LC(LG(RIGHT))  &kp C_VOL_UP  &kp PSCRN
 &bootloader  &bt_1   &kp F5  &kp F6   &kp F7   &kp F8                                                                &kp END    &kp LEFT          &kp DOWN      &kp RIGHT          &kp C_VOL_DN  &bootloader
-&sys_reset   &bt_2   &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans   &trans        &trans  &trans   &to 0      &kp PG_UP  &kp PG_DN         &kp C_BRI_UP  &kp C_BRI_DOWN     &kp C_MUTE    &sys_reset
+&sys_reset   &bt_2   &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans   &trans        &trans  &trans   &to 0      &kp PG_UP  &kp PG_DN         &kp C_BRI_UP  &kp C_BRI_DN       &kp C_MUTE    &sys_reset
 &trans       &trans  &trans  &trans   &trans            &kp BSPC  &kp DEL  &out OUT_USB  &trans  &kp RET  &kp SPACE             &trans            &trans        &trans             &trans        &trans
             >;
         };
