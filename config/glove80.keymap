@@ -39,7 +39,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "UPPER_LAYER_TAP_DANCE";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
             bindings = <&mo 2>, <&to 2>;
         };
 
@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
