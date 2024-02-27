@@ -42,6 +42,7 @@
             tapping-term-ms = <180>;
             bindings = <&mo 2>, <&to 2>;
         };
+    };
 
     macros {
         rgb_ug_status_macro: rgb_ug_status_macro_0 {
